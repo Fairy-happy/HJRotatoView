@@ -12,14 +12,33 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        fronV.frame = CGRect(x: 100, y: 100, width: 200, height: 200)
+        view.addSubview(fronV)
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
+    
+    lazy var fronV:HJRotatoView = HJRotatoView(fristV: self.testV1, secondV: self.testV2)
+    
+    lazy var testV1 : UIView = {
+        let tV1 = UIView()
+        tV1.backgroundColor = UIColor.blackColor()
+        tV1.frame = CGRectMake(0, 0, 200, 200)
+        
+        let testView = UIImageView(image: UIImage(named:"1"))
+        testView.frame = tV1.bounds
+        tV1.addSubview(testView)
+        return tV1
+        }()
+    
+    lazy var testV2 : UIView = {
+        let tV1 = UIView()
+        tV1.backgroundColor = UIColor.yellowColor()
+        tV1.frame = CGRectMake(0, 0, 200, 200)
+        
+        let testView = UIImageView(image: UIImage(named:"2"))
+        testView.frame = tV1.bounds
+        tV1.addSubview(testView)
+        return tV1
+        }()
 
 }
 

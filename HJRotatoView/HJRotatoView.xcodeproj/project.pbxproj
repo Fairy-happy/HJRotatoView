@@ -13,6 +13,7 @@
 		543FD7C51C8F249C00F18154 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 543FD7C41C8F249C00F18154 /* Assets.xcassets */; };
 		543FD7C81C8F249C00F18154 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 543FD7C61C8F249C00F18154 /* LaunchScreen.storyboard */; };
 		543FD7D31C8F249C00F18154 /* HJRotatoViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 543FD7D21C8F249C00F18154 /* HJRotatoViewUITests.swift */; };
+		543FD7DE1C8F255200F18154 /* HJRotatoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 543FD7DD1C8F255200F18154 /* HJRotatoView.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		543FD7CE1C8F249C00F18154 /* HJRotatoViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HJRotatoViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		543FD7D21C8F249C00F18154 /* HJRotatoViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HJRotatoViewUITests.swift; sourceTree = "<group>"; };
 		543FD7D41C8F249C00F18154 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		543FD7DD1C8F255200F18154 /* HJRotatoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HJRotatoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				543FD7C41C8F249C00F18154 /* Assets.xcassets */,
 				543FD7C61C8F249C00F18154 /* LaunchScreen.storyboard */,
 				543FD7C91C8F249C00F18154 /* Info.plist */,
+				543FD7DD1C8F255200F18154 /* HJRotatoView.swift */,
 			);
 			path = HJRotatoView;
 			sourceTree = "<group>";
@@ -197,6 +200,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				543FD7C01C8F249C00F18154 /* ViewController.swift in Sources */,
+				543FD7DE1C8F255200F18154 /* HJRotatoView.swift in Sources */,
 				543FD7BE1C8F249C00F18154 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

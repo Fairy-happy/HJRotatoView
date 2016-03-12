@@ -9,3 +9,4 @@
 //将两个view传入下面的构造方法即可
     lazy var fronV:HJRotatoView = HJRotatoView(fristV: "第一个view", secondV: "第二个view")
 ```
+通过左/右滑动即可出现翻转效果

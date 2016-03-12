@@ -5,7 +5,7 @@
 ![](https://github.com/JueJueHuang/HJRotatoView/raw/master/HJRotato.gif)
 
 ###使用方法
-'''Object-c
+'''Swift
 //将两个view传入下面的构造方法即可
     lazy var fronV:HJRotatoView = HJRotatoView(fristV: <#T##UIView#>, secondV: <#T##UIView#>)
 '''
